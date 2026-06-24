@@ -132,23 +132,21 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Nalla Narasimha reddy Educational Society Group of Institutions }{2021 - 2025}
-      {B.Tech,  Data science}{CGPA:6.05}
+     {B.Tech, Data Science}{CGPA: 6.53}
     \resumeSubheading
       {Sri Gayatri Junior College}{2019-2021}
       {College, BIEAP Board}{885/1000}
       
-  \resumeSubHeadingListEnd
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Programming Languages}{:Data Structures,Java,python} \\
-     \textbf{Frontend}{: HTML, CSS} \\
- \textbf{Data and office tools}{: Microsoft Excel ( VLOOKUP/HLOOKUP,Pivot Tables, Charts, Data 
-Cleaning, Ms office )} \\
-\textbf{tools}{: githud, Goodgle collab, power BI}
-    }}
- \end{itemize}
-
+  \section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Programming Languages}{: C, Java, Python} \\
+\textbf{Database}{: SQL, MySQL} \\
+\textbf{Data Analytics \& BI Tools}{: Power BI, Microsoft Excel (VLOOKUP, HLOOKUP, Pivot Tables, Charts, Data Cleaning)} \\
+\textbf{Tools \& Platforms}{: Git, GitHub, Google Colab} \\
+\textbf{Web Technologies}{: HTML, CSS}
+}}
+\end{itemize}
 
 %-----------PROGRAMMING SKILLS-----------
 
@@ -203,6 +201,7 @@ Cleaning, Ms office )} \\
  \resumeItem{Performed data cleaning and transformation using Power Query.}
  \resumeItem{Analyzed sales data based on product category, region, and time period.}
 \resumeItem{Designed dashboards to provide insights into revenue, profit, and sales growth for decision-making}
+\resumeItem{Technologies: Power BI, Microsoft Excel, Power Query, DAX}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -255,6 +254,7 @@ Cleaning, Ms office )} \\
 %     \small{\item{
 %      \textbf{Python Full Stack Development course (EDX |)} {covering Python, full-stack application development.} \\
 %      \textbf{Frontend}{: HTML, CSS, SQL} 
+
 %     }}
 %  \end{itemize}
 \section{Certificates}
@@ -263,7 +263,7 @@ Cleaning, Ms office )} \\
      
 \textbf{Python Full Stack Development course (\href{file:///C:/Users/rahul/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/navya%20certificate.}{\textcolor{blue}{EDX}})} {:}\\ 
  \textit{ Successfully completed Python Full Stack Development training with Grade "A", covering Python, HTML, CSS, SQL, and full-stack application development. } \\
-    
+    \textbf{Python Full Stack Development (Config Software Solutions)}
     }}
       % \small{\item{
 % \textbf{Python Full Stack Development (Config Software Solutions)}{:}\\
@@ -276,7 +276,7 @@ Cleaning, Ms office )} \\
     \small{\item{
      \textbf{SMART INDIA HACKTHON 2024 } \\
      \textit{
-     Participated in a SMART INDIA HACKTHON 2024 , contributing to the effort to set a Recoed, which was conducted by NALLA NARASIMHA REDDY COLEGE.} \\
+     Participated in Smart India Hackathon 2024 and contributed to innovative problem-solving and collaborative software development.} \\
     }}
  \end{itemize}
 
