@@ -1,0 +1,285 @@
+%-------------------------
+% Resume in Latex
+% Author : Gennadii Chursov
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{enumitem}
+\usepackage{marvosym}
+\usepackage{fontawesome5} % For GitHub and LinkedIn symbols
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\s #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape  BOLLOJU NAVYA} \\ \vspace{1pt}
+    % \small \textit{Automation QA Engineer} \\ 
+    +91-8179973145 $|$ \href{mailto:bollojunavya2003@gmail.com}{\Letter \ \underline{bollojunavya2003@gmail.com}} $|$ 
+    \href{https:// www.linkedin.com/in/bolloju-navya-9b82a8262  /}{\faLinkedin \ \underline{LinkedIn}} $|$
+    \href{https://github.com/Navya-bolloju}{\faGithub \ \underline{GitHub}}
+\end{center}
+
+%-----------SUMMARY-----------
+% \section*{Summary}
+% As a graduated B.Tech student majoring in  Data Science. My hands-on projects reflect a commitment to 
+% innovation and effective problem-solving. Eager to contribute in active workplace, I'm driven to make a positive impact through continuous learning.
+% Seeking opportunities to translate classroom knowledge into real-world applications, my focus is on driving excellence in machine learning.
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Nalla Narasimha reddy Educational Society Group of Institutions }{2021 - 2025}
+      {B.Tech,  Data science}{CGPA:6.05}
+    \resumeSubheading
+      {Sri Gayatri Junior College}{2019-2021}
+      {College, BIEAP Board}{885/1000}
+      
+  \resumeSubHeadingListEnd
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{:Data Structures,Java,python} \\
+     \textbf{Frontend}{: HTML, CSS} \\
+ \textbf{Data and office tools}{: Microsoft Excel ( VLOOKUP/HLOOKUP,Pivot Tables, Charts, Data 
+Cleaning, Ms office )} \\
+\textbf{tools}{: githud, Goodgle collab, power BI}
+    }}
+ \end{itemize}
+
+
+%-----------PROGRAMMING SKILLS-----------
+
+
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Age & Gender Estimation Using OpenCV}{  Jul 2023-Aug 2023 }
+      {Deep Learning & Computer Vision Project.}{}
+      \resumeItemListStart
+      \resumeItem{ Developed a real-time age and gender estimation system using Computer Vision and Deep Learning techniques..}
+        \resumeItem{Used OpenCV for face detection and pre-trained Convolutional Neural Network (CNN) models for age and gender prediction.}
+         \resumeItem{Processed live webcam input to estimate demographic information in real time..}
+\resumeItem{Technologies: Python, OpenCV, Deep Learning, Machine Learning, CNN, Computer Vision}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {AI-Powered Multilingual Plant Diseases Classifier with Reinforcement Learning Integration }{Mar 2024}
+      {Artificial Intelligence (AI) & Machine Learning.}{}
+      \resumeItemListStart
+        \resumeItem{Developed an AI-based plant disease detection system using Deep Learning and Computer Vision techniques..}
+        \resumeItem{Trained a CNN model to identify plant diseases from leaf images with high accuracy.}
+\resumeItem{Utilized Python, TensorFlow, Keras, and OpenCV for image preprocessing, model training, and disease prediction.}
+\resumeItem{Implemented multilingual support to deliver disease information and solutions in multiple languages.}
+\resumeItem{Built a user-friendly interface for image upload, disease prediction, and recommendation generation.}
+\resumeItem{Technologies: Python, TensorFlow, Keras, OpenCV, Reinforcement Learning, Streamlit, Machine Learning, Deep Learning, Computer Vision}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      { Sales Dashboard using Power BI}{Feb 2026}
+      { Power BI}{}
+      \resumeItemListStart
+        \resumeItem{ Developed an interactive sales dashboard using Power BI to analyze sales performance and business trends. }
+        \resumeItem{Created visualizations such as bar charts, pie charts, KPI cards, and trend analysis reports.}
+ \resumeItem{Performed data cleaning and transformation using Power Query.}
+ \resumeItem{Analyzed sales data based on product category, region, and time period.}
+\resumeItem{Designed dashboards to provide insights into revenue, profit, and sales growth for decision-making}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%\resumeSubHeadingListStart
+
+%\resumeProjectHeading
+%{\textbf{Age & Gender Estimation Using OpenCV} $|$ \emph{Python, OpenCV, CNN, Deep Learning, Computer Vision}}{Jul 2023 -- Aug 2023}
+%\resumeItemListStart
+%\resumeItem{Developed a real-time age and gender estimation system using Computer Vision and Deep Learning techniques.}
+%\resumeItem{Implemented face detection using OpenCV and pre-trained CNN models for demographic prediction.}
+%\resumeItem{Processed live webcam input to estimate age and gender in real time.}
+%\resumeItemListEnd
+
+%\resumeProjectHeading
+%{\textbf{AI-Powered Multilingual Plant Diseases Classifier with Reinforcement Learning Integration} $|$ \emph{Python, TensorFlow, Keras, OpenCV, Streamlit, Reinforcement Learning}}{Mar 2024}
+%\resumeItemListStart
+%\resumeItem{Developed an AI-based plant disease detection system using Deep Learning and Computer Vision techniques.}
+%\resumeItem{Trained CNN models to classify plant diseases from leaf images with high accuracy.}\resumeItem{Implemented multilingual support and recommendation generation for farmers.}
+%\resumeItem{Built a user-friendly interface for image upload and disease prediction.}
+%\resumeItemListEnd
+
+%\resumeProjectHeading
+%{\textbf{Sales Dashboard using Power BI} $|$ \emph{Power BI, Microsoft Excel, Power Query, DAX}}{Feb 2025}
+%\resumeItemListStart
+%\resumeItem{Developed an interactive sales dashboard to analyze sales performance and business trends.}
+%\resumeItem{Created KPI cards, charts, and reports to visualize revenue, profit, and sales growth.}
+%\resumeItem{Performed data cleaning and transformation using Power Query.}
+%\resumeItem{Analyzed sales data across regions, categories, and time periods to generate business insights.}
+%\resumeItemListEnd
+
+%\resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+% \section{Education}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Name State Technical University}{City, Country}
+%       {Engineer's Degree, Faculty of Electronics and Instrument Making}{2007 - 2012}
+%   \resumeSubHeadingListEnd
+
+
+
+%-----------Certifications-----------
+
+% \section{Certificates}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Python Full Stack Development course (EDX |)} {covering Python, full-stack application development.} \\
+%      \textbf{Frontend}{: HTML, CSS, SQL} 
+%     }}
+%  \end{itemize}
+\section{Certificates}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     
+\textbf{Python Full Stack Development course (\href{file:///C:/Users/rahul/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/navya%20certificate.}{\textcolor{blue}{EDX}})} {:}\\ 
+ \textit{ Successfully completed Python Full Stack Development training with Grade "A", covering Python, HTML, CSS, SQL, and full-stack application development. } \\
+    
+    }}
+      % \small{\item{
+% \textbf{Python Full Stack Development (Config Software Solutions)}{:}\\
+%\textit{Successfully completed Python Full Stack Development training with hands-on experience in Python, SQL, HTML, and CSS.}
+%}}
+ \end{itemize}
+
+\section{Extracurricular Activity's }
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{SMART INDIA HACKTHON 2024 } \\
+     \textit{
+     Participated in a SMART INDIA HACKTHON 2024 , contributing to the effort to set a Recoed, which was conducted by NALLA NARASIMHA REDDY COLEGE.} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
